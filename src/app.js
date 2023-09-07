@@ -1,23 +1,23 @@
 let now = new Date();
-let minutes = now.getMinutes();
+let minutes = now.getUTCMinutes();
 if (minutes < 10) {
   minutes = `0${minutes}`;
 }
-let hours = now.getHours();
+let hours = now.getUTCHours();
 if (hours < 10) {
   hours = `0${hours}`;
 }
-let day = now.getDay();
+let day = now.getUTCDay();
 let days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
   "Friday",
   "Saturday",
+  "Sunday",
+  "Monday",
+  "Thursday",
+  "Tuesday",
+  "Wednesday",
 ];
-day = days[now.getDay()];
+day = days[now.getUTCDay()];
 
 let time = document.querySelector("h3");
 time.innerHTML = `${hours}:${minutes}`;
