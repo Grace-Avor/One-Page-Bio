@@ -33,6 +33,7 @@ a {
 }
 
 a:hover{
-  background-color: #e0c8c8;
-  color: #4d13ee;
+  background-color: #1608d4;
+  color: #fff;
+  transition: 230ms ease-in-out;
 }
