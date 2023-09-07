@@ -1,17 +1,25 @@
 body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418)),
+    url("https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=740&t=st=1694072969~exp=1694073569~hmac=a4b2954ae4c14042702789fea118ecf2801017ecd2faae4fa23e3748949bb6a5");
+  background-position: 50%;
+  background-size: cover;
   text-align: center;
+  color: bisque;
 }
 
 img {
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
-  border-radius: 30px;
-}
-
-h1 {
-  color: rgb(240, 16, 173);
+  border-radius: 100%;
 }
 
 h2 {
   opacity: 0.7;
+}
+
+.container {
+  max-width: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418));
+  margin: 0 auto;
+  padding: 40px;
 }
